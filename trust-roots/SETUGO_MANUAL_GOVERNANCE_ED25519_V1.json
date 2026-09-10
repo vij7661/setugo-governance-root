@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "trust_root_id": "SETUGO_MANUAL_GOVERNANCE_ED25519_V1",
+  "algorithm": "Ed25519",
+  "public_key_path": "trust-roots/SETUGO_MANUAL_GOVERNANCE_ED25519_V1.pem",
+  "public_key_der_sha256": "2b1b97ab0bf99e71f4a93f51fd8e6c3eb30063d83ba2eb4c091492a95f9c11f2",
+  "authority_scope": "TESTING_MANUAL_GOVERNANCE_ATTESTATION_VERIFICATION_ONLY",
+  "private_key_location": "EXTERNAL_OFF_REPOSITORY_USER_CONTROLLED",
+  "private_key_must_never_be_committed": true,
+  "authority_effect": "NONE_BY_ITSELF",
+  "notes": "This repository contains only public verification material. Possession of this public key does not confer authority or signing capability."
+}
