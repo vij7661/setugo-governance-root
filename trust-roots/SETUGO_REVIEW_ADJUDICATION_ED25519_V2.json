@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "trust_root_id": "SETUGO_REVIEW_ADJUDICATION_ED25519_V2",
+  "algorithm": "Ed25519",
+  "public_key_path": "trust-roots/SETUGO_REVIEW_ADJUDICATION_ED25519_V2.pem",
+  "public_key_der_sha256": "2b1b97ab0bf99e71f4a93f51fd8e6c3eb30063d83ba2eb4c091492a95f9c11f2",
+  "authority_scope": "CROSS_PHASE_REVIEW_ADJUDICATION_EVIDENCE_VERIFICATION_ONLY",
+  "permitted_authority_class": "INDEPENDENT_GOVERNANCE_ADJUDICATOR",
+  "permitted_decision_scopes": [
+    "REVIEW_FINDING_ADJUDICATION"
+  ],
+  "permitted_candidate_phases": [
+    "TESTING",
+    "RELEASE",
+    "PRODUCTION"
+  ],
+  "private_key_location": "EXTERNAL_OFF_REPOSITORY_USER_CONTROLLED",
+  "private_key_must_never_be_committed": true,
+  "authority_effect": "NONE_EVIDENCE_ONLY",
+  "notes": "Verification-only trust root for independent review-finding adjudication evidence across governed phases. This root cannot satisfy terminal authority for TESTING, RELEASE, or PRODUCTION. Historical V1 TESTING-only root remains frozen at its prior commit."
+}
